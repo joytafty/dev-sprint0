@@ -1,6 +1,6 @@
 # Text answers from Week 0
 
-# Name:
+# Name: Tharathorn (Joy) Rimchala
 
 
 
@@ -11,35 +11,45 @@ Explain what each of the following lines does. Use the terminology you learned f
 	bob = Turtle()
 	wait_for_user()
 
-Answer:
-
-
-
-
-
+Answer: 
+Line1 imports all items in TurtleWorld module.
+Line2 creates TurtleWorld instance called world.
+Line3 creates Turtle instance called bob.
+Line4 tells TurtleWorld instance to wait for user input
 
 These questions pertain to the program you wrote in Week0.
 
 -- What are the arguments of polygon()?  What type is each argument?
-Answer:
+Answer: The arguments of polygon are: 
+	bob - type turtle
+	l - type float
+	n - type int
 
 -- What two turtle functions did you use to draw the sides of the polygon?
-Answer:
+Answer: The two turtle functions are
+	fd - moves turtle forward
+	lt - turns turtle leftward
 
 -- What are the arguments for polyline?  What type is each argument?
 Answer:
-
-
-
-
+	The arguments of polyline are: 
+	bob - type turtle
+	n - type int
+	length - type float
+	angle - type float
 
 Suppose you wrote a function, center_circle(), that draws a circle of a given radius around the current location of the turtle and restores the turtle to its starting point.
 
 -- What turtle functions would you use to move the turtle from the center to the edge of the circle and get ready to call the original circle() function?
-Answer:
+Answer: 
+	fd(turtle,r)
+	lt(turtle)
 
 -- Suppose the interface of this function requires the turtle to end up in the same place it started, facing in the same direction it started.
-Answer:
+Answer: 
+	rt(turtle)
+	bk(turtle,r)
 
 -- What is this type of requirement called?
 Answer:
+	postcondition
